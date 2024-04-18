@@ -8,7 +8,7 @@
     "firefox" : "npx cypress run --e2e --browser firefox",
     "edge" : "npx cypress run --e2e --browser edge",
     "test:report" : "npx cypress run --record --key c83ae964-c5ef-45db-a866-d6577e4edc68",
-    "build" : "npx cypress open"
+    "build" : "npx cypress open --e2e --browser firefox"
   },
   "keywords": [],
   "author": "",
