@@ -1,5 +1,4 @@
 name: diyar-cypress-todo-project
-
 on:
   push:
     branches: ["main"]
