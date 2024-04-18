@@ -1,0 +1,19 @@
+{
+  "name": "cypress-framework-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:staging": "npx cypress run --e2e",
+    "firefox" : "npx cypress run --e2e --browser firefox",
+    "edge" : "npx cypress run --e2e --browser edge",
+    "test:report" : "npx cypress run --record --key c83ae964-c5ef-45db-a866-d6577e4edc68"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.7.3"
+  }
+}
