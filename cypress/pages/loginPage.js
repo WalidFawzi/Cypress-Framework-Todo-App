@@ -12,7 +12,7 @@ class LoginPage {
         return cy.get('.MuiButton-label');
     }
 
-
+    //Waleed
     //Methods
      load(){
         cy.visit ("/")
