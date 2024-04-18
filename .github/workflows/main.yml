@@ -17,9 +17,8 @@ jobs:
           env:
             CYPRESS_PROJECT_ID: circ7g
             CYPRESS_RECORD_KEY: c83ae964-c5ef-45db-a866-d6577e4edc68
-            # Recommended: pass the GitHub token lets this action correctly
-            # determine the unique run id necessary to re-run the checks
-            GITHUB_TOKEN: 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
+            
+            
 
               
 
