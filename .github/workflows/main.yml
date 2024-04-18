@@ -1,9 +1,9 @@
-name: Cypress Tests with Dependency and Artifact Caching
+name: Diyar run cypress todo application
 
 on: push
 
 jobs:
-  install:
+  test:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
@@ -11,16 +11,7 @@ jobs:
 
       - name: Cypress install
         uses: cypress-io/github-action@v6
-
-  cypress-run:
-    runs-on: ubuntu-22.04
-    needs: install
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          start: npm start
-          browser: chrome
+          with:
+            record: true
+          env:
+          CYPRESS_RECORD_KEY:c83ae964-c5ef-45db-a866-d6577e4edc68
