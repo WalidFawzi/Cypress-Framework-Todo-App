@@ -16,6 +16,5 @@ jobs:
               record: true
           env:
             CYPRESS_PROJECT_ID: circ7g
-            CYPRESS_RECORD_KEY: c83ae964-c5ef-45db-a866-d6577e4edc68
          
           
