@@ -7,5 +7,5 @@ on:
       test:
         runs-on: macos-latest
         steps:
-          -uses: actions/checkout@v3
+          -uses: actions/checkout@v4
           -uses: cypress-io/github-action@v6
