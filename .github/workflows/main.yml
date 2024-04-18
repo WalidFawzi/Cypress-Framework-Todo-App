@@ -15,3 +15,6 @@ jobs:
         with:
           build: npm run build
           browser: chrome
+          record: true
+        env:
+        CYPRESS_RECORD_KEY:c83ae964-c5ef-45db-a866-d6577e4edc68
