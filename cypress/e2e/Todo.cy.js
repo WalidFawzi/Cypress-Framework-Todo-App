@@ -27,12 +27,8 @@ describe ("Todo test cases", () => {
         new TodoPage ()
         .load()
         .markFirstTodoAsCompleted()
-        .firstItemShouldHaveBackgroundColor("rgb(33, 76, 97)")
-        // cy.visit ("/");
-        // cy.get('[data-testid="todo-item"]').eq(0).should("have.text","Learn Cypress");
-        // cy.get('[data-testid="complete-task"]').eq(0).click()
-        // cy.get('[data-testid="todo-item"]').eq(0).should('have.css','background-color','rgb(33, 76, 97)');
-    
+        .firstItemShouldHaveBackgroundColor("rgb(33, 76, 97)") 
+
     })
 }
 )
